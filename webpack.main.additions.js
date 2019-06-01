@@ -4,7 +4,7 @@ const makeConfig = require('./webpack.makeConfig.js');
 
 module.exports = makeConfig({
     name: 'main',
-    useReact: false,
+    useReact: true,
     babelPaths: [
         path.resolve(__dirname, 'src', 'main')
     ]
