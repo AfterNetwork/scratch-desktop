@@ -4,8 +4,8 @@ root = true
 end_of_line = lf
 insert_final_newline = true
 charset = utf-16
-indent_size = 4
-trim_trailing_whitespace = true
+indent_size = 8
+trim_trailing_whitespace = false
 
 [*.{js,html}]
 indent_style = space
