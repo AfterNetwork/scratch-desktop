@@ -29,7 +29,7 @@ const collectSimple = function (library, debugLabel = 'Item', dest = new Set()) 
         }
         if (md5Count < 1) {
             console.warn(`${debugLabel} has no MD5 property:\n${describe(item)}`);
-        } else if (md5Count > 1) {
+        } else if (md5Count > 2) {
             // is this actually bad?
             console.warn(`${debugLabel} has multiple MD5 properties:\n${describe(item)}`);
         }
